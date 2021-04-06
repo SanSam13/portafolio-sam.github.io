@@ -108,7 +108,7 @@
                </div>
            </div>
            <div class="row">
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="container-projects">
                         <div class="box-project">
                             <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
@@ -266,7 +266,20 @@
                             </a>
                         </div>
                     </div>
+                </div> -->
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/bioetix.jpeg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                
            </div>
        </div>
        
@@ -278,24 +291,24 @@ export default {
     data() {
         return {
             projects: [
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Kannski live', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Kannski live', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
-                {image: 'https://picsum.photos/id/237/350/350', title: 'Hoteles Mx', link: 'https://hotelesmx.com/', category: 'all', year: '2020'},
+                {image: 'https://portafolio-sam.netlify.app/img/hoteles_mx.8c962a40.jpg', title: 'Hoteles Mx', link: 'https://hotelesmx.com', company: 'Polilla Studio', category: 'cms', year: '2020', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/kannski_live.18c0c080.jpg', title: 'Kannski Live', link: 'https://kannski.live', company: 'Polilla Studio', category: 'cms', year: '2020', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/seven_jeans.061e3958.jpg', title: 'Seven Jeans', link: 'https://sevenjeans.mx', company: 'Polilla Studio', category: 'shopify', year: '2020', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/marzam.9476dc7a.jpg', title: 'Marzam', link: 'https://www.marzam.com.mx', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/peques.8beae931.jpg', title: 'Marqco Peques', link: 'https://marqcopeques.com', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/hoteles_mision.dfcc2432.jpg', title: 'Hoteles Misión', link: 'https://www.hotelesmision.com.mx/', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/televisa_llega.663622f4.jpg', title: 'Televisa LLega 2020', link: '#', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/bimbo.5f459ad1.jpg', title: 'Sin dejar huella', link: 'https://www.sindejarhuella.mx/sections/sin-dejar-huella-manufactura.html', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/sky.b4c5abb1.jpg', title: 'Sky', link: 'https://www.sky.com.mx/no-suscriptor/landing-telecomm', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: '#', title: 'Bioétix', link: 'https://play.google.com/store/apps/details?id=io.bioetica.bioetix&hl=es_MX&gl=US', company: 'Ingenia', category: 'juego', year: '2019', order: 1},
+                
+                {image: 'https://portafolio-sam.netlify.app/img/kiui.29fd5db4.jpg', title: 'Kiui', link: 'http://www.kiui.mx', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/imcp.6b4c1ad4.jpg', title: 'IMCP', link: 'http://110.imcp.org.mx', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/el_poder_numeros.29969d92.jpg', title: 'El poder de los números', link: 'http://www.elpoderdelosnumeros.org', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://portafolio-sam.netlify.app/img/siermend.792fc65a.jpg', title: 'Siermend', link: 'http://siermend.com', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+
+
+                
                 
             ],
             projectsToShow: 6
