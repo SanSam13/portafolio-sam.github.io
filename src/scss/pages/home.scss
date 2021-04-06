@@ -33,6 +33,16 @@
             font-size: 3em;
             color: purple;
             z-index: 2;
+            @include mq(desktop, max){
+                right: 70%;
+            }
+            @include mq(tablet, max){
+                right: 63%;
+            }
+            @include mq(mobile, max){
+                right: 63%;
+                font-size: 2.5em;
+            }
         }
         .description{
             padding: 0 30px;

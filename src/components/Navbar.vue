@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <b-navbar toggleable="lg" type="dark" variant="">
-        <b-navbar-brand href="#"><b-icon icon="code-slash"></b-icon>Portafolio</b-navbar-brand>
+        <b-navbar-brand href="https://portafolio-sam.netlify.app"><b-icon icon="code-slash"></b-icon>Portafolio</b-navbar-brand>
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 

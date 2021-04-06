@@ -107,6 +107,167 @@
                      </div> -->
                </div>
            </div>
+           <div class="row">
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/hoteles_mx.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/kannski_live.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/seven_jeans.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/marzam.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/peques.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/hoteles_mision.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/televisa_llega.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/bimbo.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/sky.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/kiui.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/imcp.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/el_poder_numeros.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-projects">
+                        <div class="box-project">
+                            <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
+                                <img src="../assets/sites/siermend.jpg" alt="Hoteles MX">
+                                <div class="info">
+                                    <span>Hoteles MX <b-icon icon="arrow-right-square"></b-icon></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+           </div>
        </div>
        
    </div>
