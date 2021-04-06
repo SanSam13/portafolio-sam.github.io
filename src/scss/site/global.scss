@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+  
+    .only-mobile {
+      display: none;
+  
+      @include mq(mobile, max) {
+        display: block;
+      }
+    }
+  
+    .only-desktop {
+      display: block;
+  
+      @include mq(mobile, max) {
+        display: none;
+      }
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      display: inline-block;
+      font-family: $main-font;
+      font-weight: 600;
+      text-transform: uppercase;
+      position: relative;
+      letter-spacing: 5px;
+      &::after{
+        display: block;
+        content: "";
+        width: 30px;
+        height: 5px;
+        background-color: $purple-dark;
+        position: absolute;
+        bottom: 0;
+        left: -20%;
+
+      }
+    }
+    p{
+      font-family: $secondary-font;
+      font-weight: 400;
+    }
+}
+
+.btn {
+  color: $purple;
+  cursor: pointer;
+  // display: block;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  &:hover { text-decoration: none; }
+  
+}
+
+.btn-1 {
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  rect {
+    fill: none;
+    stroke: $purple;
+    stroke-width: 5;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+  &:hover{
+    background: rgba($purple, 0);
+    font-weight: 900;
+    color: $purple;
+    letter-spacing: 1px;
+    rect {
+      stroke-width: 5;
+      stroke-dasharray: 15, 310;
+      stroke-dashoffset: 48;
+      transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
+} 
+//Animaciones
+.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

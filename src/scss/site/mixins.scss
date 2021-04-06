@@ -1,0 +1,173 @@
+$breakpoints: (
+	'small-mobile': 576px,
+	'mobile': 768px,
+	'tablet': 992px,
+	'desktop': 1200px,
+);
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin no-select() {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@mixin no-drag() {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+@mixin absoluteCenter() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin absoluteBottom($amount:0) {
+	position: absolute;
+	bottom: $amount;
+	left: 0;
+}
+
+@mixin ellipsis-wrap() {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+	@if $inset {
+		-webkit-box-shadow: inset $top $left $blur $color;
+		-moz-box-shadow: inset $top $left $blur $color;
+		-ms-box-shadow: inset $top $left $blur $color;
+		box-shadow: inset $top $left $blur $color;
+	}
+
+	@else {
+		-webkit-box-shadow: $top $left $blur $color;
+		-moz-box-shadow: $top $left $blur $color;
+		-ms-box-shadow: $top $left $blur $color;
+		box-shadow: $top $left $blur $color;
+	}
+}
+
+@mixin box-shadow-important($top, $left, $blur, $color, $inset: false) {
+	@if $inset {
+		-webkit-box-shadow: inset $top $left $blur $color !important;
+		-moz-box-shadow: inset $top $left $blur $color !important;
+		-ms-box-shadow: inset $top $left $blur $color !important;
+		box-shadow: inset $top $left $blur $color !important;
+	}
+
+	@else {
+		-webkit-box-shadow: $top $left $blur $color !important;
+		-moz-box-shadow: $top $left $blur $color !important;
+		-ms-box-shadow: $top $left $blur $color !important;
+		box-shadow: $top $left $blur $color !important;
+	}
+}
+
+@mixin no-box-shadow() {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none;
+}
+
+@mixin text-shadow($top, $left, $blur, $color) {
+	-webkit-text-shadow: $top $left $blur $color;
+	-moz-text-shadow: $top $left $blur $color;
+	-ms-text-shadow: $top $left $blur $color;
+	text-shadow: $top $left $blur $color;
+}
+
+@mixin input-placeholder {
+	&.placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		@content;
+	}
+
+	&::-moz-placeholder {
+		@content;
+	}
+
+	&:-ms-input-placeholder {
+		@content;
+	}
+
+	&::-webkit-input-placeholder {
+		@content;
+	}
+}
+
+@mixin mq($width, $type: min) {
+	@if map_has_key($breakpoints, $width) {
+		$width: map_get($breakpoints, $width);
+		@if $type==max {
+			$width: $width - 1px;
+		}
+		@media only screen and (#{$type}-width: $width) {
+			@content;
+		}
+	}
+	@else {
+		@if $type==max {
+			$width: $width - 1px;
+		}
+		@media only screen and (#{$type}-width: $width) {
+			@content;
+		}
+	}
+}
+
+@mixin appearance($val) {
+	appearance: $val;
+	-ms-appearance: $val;
+	-moz-appearance: $val;
+	-webkit-appearance: $val;
+}
+
+@mixin background-transparency($color, $amount) {
+	background-color: transparentize($color, $amount);
+}
+
+@mixin linear-gradient($colorA, $colorB) {
+	background: -moz-linear-gradient(top, $colorA 0%, $colorB 100%);
+	background: -webkit-linear-gradient(top, $colorA 0%, $colorB 100%);
+	background: linear-gradient(to bottom, $colorA 0%, $colorB 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$colorA, endColorstr=$colorB, GradientType=0);
+}
+
+@mixin buttonStyles($width, $padding) {
+	background-color: $pink;
+	width: $width;
+	padding: $padding;
+	@include border-radius(30px);
+	color: $white;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 20px;
+	transition: 0.5s all;
+    text-decoration: none;
+	&:hover, &:focus, &:active {
+		background-color: $pink;
+		color: $white;
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	}
+}

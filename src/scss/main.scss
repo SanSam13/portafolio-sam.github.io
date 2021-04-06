@@ -1,0 +1,21 @@
+@import 'site/colors';
+@import 'site/fonts';
+@import 'site/mixins';
+@import 'site/global';
+
+
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/slider';
+@import 'partials/projects';
+@import 'partials/banner';
+
+@import 'pages/home';
+
+// Define variable defaults
+// $body-bg: rgb(179, 84, 84);
+// $body-color: rgb(35, 148, 25);
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+// @import 'node_modules/bootstrap/scss/bootstrap.scss';
+// @import 'node_modules/bootstrap-vue/src/index.scss';

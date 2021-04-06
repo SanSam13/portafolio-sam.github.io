@@ -1,0 +1,104 @@
+.banner{
+    background-color: $black;
+    max-width: 1500px;
+    margin: 0 auto;
+    .container-banner{
+        position: relative;
+        .icons{
+            position: absolute;
+            top: 25%;
+            left: -7%;
+            z-index: 2;
+            font-size: 4em;
+            display: flex;
+            justify-content: flex-start;
+            div{
+                width: 12%;
+                .b-icon{
+                    font-size: 4.5em;
+                    color: rgba(gray, 0.2);
+                }
+            }
+            @include mq(mobile, max){
+                display: none;
+            }
+            @include mq(tablet, max){
+                left: -12%;
+                top: 35%;
+            }
+        }
+        .image{
+            height: 100vh;
+            background-color: grey;
+            background-image: url('../assets/bannerSam3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 80% 100% ;
+
+            @include mq(desktop, max){
+                background-position: 70% 0;
+            }
+            @include mq(mobile, max){
+                background-position: 80% 0;
+            }
+        }
+        .info{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            color: $white;
+            background-color: $black;
+            width: 40%;
+            height: 100%;
+            .container-info{
+                position: absolute;
+                bottom: 8%;
+                right: -50%;
+                z-index: 2;
+                h1{
+                    font-size: 2.5em;
+                    text-transform: uppercase;
+                    font-family: $title-font;
+                    letter-spacing: 5px;
+                    &::after{
+                        left: -3%;
+                    }
+                    @include mq(mobile, max){
+                        font-size: 2em;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                p{
+                    background-color: rgba(purple, 0.5);
+                    font-size: 1.5em;
+                    padding: 10px;
+                    margin: 0;
+                    font-family: $secondary-font;
+                    text-align: center;
+                    strong{
+                        display: block;
+                    }
+                
+                }
+                @include mq(tablet, max){
+                    left: 10%;
+                }
+                @include mq(mobile, max){
+                    //background-color: pink;
+                    width: 100%;
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+            @include mq(tablet, max){
+                width: 50%;
+            }
+            @include mq(mobile, max){
+                width: 100%;
+                background-color: inherit;
+            }
+        }
+    }
+    
+}

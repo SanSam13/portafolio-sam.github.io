@@ -1,0 +1,56 @@
+.home{
+    overflow: hidden;
+    .about{
+        padding: 50px 0 100px 0;
+        background-color: #eeeeee;
+        .image{
+            position: relative;
+            display: block;
+            width: 100%;
+            max-width: 401px;
+            height: auto;
+            min-height: 401px;
+            border: 3px solid $purple-dark;
+            img{
+                display: block;
+                width: 100%;
+                max-width: 401px;
+                z-index: 1;
+                position: absolute;
+                top: 13%;
+                left: 13%;
+            }
+            @include mq(mobile, max){
+                max-width: 301px;
+                min-height: 301px;
+                margin: 0 auto;
+            }
+        }
+        .icon{
+            position: absolute;
+            right: 75%;
+            top: 5%;
+            font-size: 3em;
+            color: purple;
+            z-index: 2;
+        }
+        .description{
+            padding: 0 30px;
+            margin-top: 100px;
+            h2{
+                margin-left: 25px;
+            }
+            .icon{
+                position: absolute;
+                top: -12%;
+                right: 10%;
+                font-size: 20em;
+                color: rgba(gray, 0.2);
+            }
+            @include mq(mobile, max){
+                padding: 30px 20px;
+                margin-top: 50px;
+            }
+        }
+    }
+}

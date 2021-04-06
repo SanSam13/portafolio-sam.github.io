@@ -1,0 +1,100 @@
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: black;
+    width: 40%;
+    height: 100%;
+    .info{
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        width: 90%;
+        h1{
+            font-size: 2.5em;
+            text-transform: uppercase;
+            font-family: $title-font;
+            letter-spacing: 5px;
+            &::after{
+                left: -3%;
+            }
+            @include mq(mobile, max){
+                font-size: 2em;
+            }
+        }
+        p{
+            background-color: rgba(purple, 0.5);
+            font-size: 1.5em;
+            //text-transform: uppercase;
+            padding: 10px 0;
+            margin: 0;
+            font-family: $secondary-font;
+            strong{
+                display: block;
+            }
+        }
+        @include mq(mobile, max){
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+    // &::after{
+    //     display: block;
+    //     content: url('../assets/circle_horizontal.png');
+    //     position: absolute;
+    //     bottom: 10%;
+    //     left: 25%;
+    // }
+    @include mq(mobile, max){
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        top: inherit;
+    }
+}
+.carousel-item{
+    @include mq(mobile, max){
+        padding-bottom: 100px;
+    }
+}
+.slider{
+    position: relative;
+    .icons{
+        position: absolute;
+        top: 15%;
+        left: -7%;
+        z-index: 11;
+        font-size: 4em;
+        display: flex;
+        justify-content: flex-start;
+        div{
+            width: 12%;
+            .b-icon{
+                font-size: 4em;
+                color: rgba(gray, 0.2);
+            }
+        }
+        @include mq(mobile, max){
+            display: none;
+        }
+    }
+    .carousel{
+        @include mq(mobile, max){
+            display: none;
+        }
+    }
+    .only-mobile{
+        display: block;
+        width: 100%;
+        z-index: 5;
+    }
+    @include mq(mobile, max){
+        margin-top: 80px;
+    }
+}
