@@ -108,7 +108,7 @@
                </div>
            </div>
            <div class="row">
-                <!-- <div class="col-md-4">
+                <div class="col-md-4">
                     <div class="container-projects">
                         <div class="box-project">
                             <a href="https://hotelesmx.com/" target="_blank" title="Hoteles MX">
@@ -266,7 +266,7 @@
                             </a>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-md-4">
                     <div class="container-projects">
                         <div class="box-project">
