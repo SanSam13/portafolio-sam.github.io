@@ -20,7 +20,7 @@
                             </div>
                             <h2>Hola</h2>
                             <p>Mi nombre es Sandra, egresada de la carrera de Ingeniería en Sistemas Computacionales, he trabajado como desarrollador front end en agencias dígitales. Soy una persona proactiva, organizada y responsable con mi trabajo y mi equipo. En mis tiempos libres me gusta ver series, salir por el cafecito y conocer pueblos mágicos.</p>
-                            <a href="#" class="btn btn-1" target="_blank">
+                            <a href="https://cv-sandra.netlify.app" class="btn btn-1" target="_blank">
                                 <svg>
                                     <rect x="0" y="0" fill="none" width="100%" height="100%"/>
                                 </svg>
