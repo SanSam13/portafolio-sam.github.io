@@ -24,6 +24,9 @@
                     display: block;
                     width: 100%;
                     max-width: 350px;
+                    @include mq(tablet, max){
+                        max-width: none;
+                    }
                 }
                 .info{
                     opacity: 0;
