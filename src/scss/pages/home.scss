@@ -49,6 +49,14 @@
             margin-top: 100px;
             h2{
                 margin-left: 25px;
+                &:after{
+                    left: -6%;
+                }
+                @include mq(desktop, max){
+                    &:after{
+                        top: 34px;
+                    }
+                }
             }
             .icon{
                 position: absolute;

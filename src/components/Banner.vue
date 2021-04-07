@@ -9,7 +9,7 @@
             <div class="info">
                 <div class="container-info">
                     <h1>Sandra Martínez</h1>
-                    <p>Soy Desarrolladora <strong>Front-end</strong> </p>   
+                    <p><strong>Front-end Developer</strong> </p>   
                 </div>
             </div>
             <div class="image">

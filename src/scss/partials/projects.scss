@@ -19,7 +19,7 @@
                 display: block;
                 position: relative;
                 box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
-                //@include box-shadow(0, 3px, 6px,rgba(0,0,0,0.16));
+                
                 img{
                     display: block;
                     width: 100%;
@@ -79,7 +79,7 @@
                 width: 50%;
                 padding: 10px;
             }
-            @include mq(tablet, max){
+            @include mq(mobile, max){
                 width: 100%;
                 padding: 0;
             }
