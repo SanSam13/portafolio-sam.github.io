@@ -46,21 +46,21 @@ export default {
     data() {
         return {
             projects: [
-                {image: 'https://cv-sandra.netlify.app/images/sites/hoteles_mx.jpg', title: 'Hoteles Mx', description: '', link: 'https://hotelesmx.com', company: 'Polilla Studio', category: 'cms', year: '2020', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/kannski_live.jpg', title: 'Kannski Live', description: '', link: 'https://kannski.live', company: 'Polilla Studio', category: 'cms', year: '2020', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/seven_jeans.jpg', title: 'Seven Jeans', description: '', link: 'https://sevenjeans.mx', company: 'Polilla Studio', category: 'shopify', year: '2020', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/marzam.jpg', title: 'Marzam', description: '', link: 'https://www.marzam.com.mx', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/peques.jpg', title: 'Marqco Peques', description: '', link: 'https://marqcopeques.com', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/hoteles_mision.jpg', title: 'Hoteles Misión', description: 'Mantenimiento', link: 'https://www.hotelesmision.com.mx/', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/televisa_llega.jpg', title: 'Televisa LLega 2020',description: '', link: '#', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/bimbo.jpg', title: 'Sin dejar huella', description: '', link: 'https://www.sindejarhuella.mx/sections/sin-dejar-huella-manufactura.html', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/sky.jpg', title: 'Sky', description: 'Mantenimiento', link: 'https://www.sky.com.mx/no-suscriptor/landing-telecomm', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/bioetix.jpeg', title: 'Bioétix', description: 'Juego', link: 'https://play.google.com/store/apps/details?id=io.bioetica.bioetix&hl=es_MX&gl=US', company: 'Ingenia', category: 'juego', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/hoteles_mx.jpg', title: 'Hoteles Mx', description: '', link: 'https://hotelesmx.com', company: 'Polilla Studio', category: 'cms', year: '2020', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/kannski_live.jpg', title: 'Kannski Live', description: '', link: 'https://kannski.live', company: 'Polilla Studio', category: 'cms', year: '2020', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/seven_jeans.jpg', title: 'Seven Jeans', description: '', link: 'https://sevenjeans.mx', company: 'Polilla Studio', category: 'shopify', year: '2020', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/marzam.jpg', title: 'Marzam', description: '', link: 'https://www.marzam.com.mx', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/peques.jpg', title: 'Marqco Peques', description: '', link: 'https://marqcopeques.com', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/hoteles_mision.jpg', title: 'Hoteles Misión', description: 'Mantenimiento', link: 'https://www.hotelesmision.com.mx/', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/televisa_llega.jpg', title: 'Televisa LLega 2020',description: '', link: 'https://cv-sandra-mtz.netlify.app/images/sites/televisa_llega_2020_full.png', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/bimbo.jpg', title: 'Sin dejar huella', description: '', link: 'https://www.sindejarhuella.mx/sections/sin-dejar-huella-manufactura.html', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/sky.jpg', title: 'Sky', description: 'Mantenimiento', link: 'https://www.sky.com.mx/no-suscriptor/landing-telecomm', company: 'Ingenia', category: 'frontend', year: '2019', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/bioetix.jpeg', title: 'Bioétix', description: 'Juego', link: 'https://play.google.com/store/apps/details?id=io.bioetica.bioetix&hl=es_MX&gl=US', company: 'Ingenia', category: 'juego', year: '2019', order: 1},
                 
-                {image: 'https://cv-sandra.netlify.app/images/sites/kiui.jpg', title: 'Kiui', description: '', link: 'http://www.kiui.mx', company: 'Gamol', category: 'cms', year: '2016', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/imcp.jpg', title: 'IMCP 110', description: '', link: 'http://110.imcp.org.mx', company: 'Gamol', category: 'cms', year: '2016', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/el_poder_numeros.jpg', title: 'El poder de los números', description: '', link: 'http://www.elpoderdelosnumeros.org', company: 'Gamol', category: 'cms', year: '2016', order: 1},
-                {image: 'https://cv-sandra.netlify.app/images/sites/siermend.jpg', title: 'Siermend', description: '', link: 'http://siermend.com', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/kiui.jpg', title: 'Kiui', description: '', link: 'http://www.kiui.mx', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/imcp.jpg', title: 'IMCP 110', description: '', link: 'http://110.imcp.org.mx', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/el_poder_numeros.jpg', title: 'El poder de los números', description: '', link: 'http://www.elpoderdelosnumeros.org', company: 'Gamol', category: 'cms', year: '2016', order: 1},
+                {image: 'https://cv-sandra-mtz.netlify.app/images/sites/siermend.jpg', title: 'Siermend', description: '', link: 'http://siermend.com', company: 'Gamol', category: 'cms', year: '2016', order: 1},
             ],
             projectsToShow: 6
         };

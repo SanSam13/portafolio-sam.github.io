@@ -23,11 +23,11 @@
                                 Orgullosa front-end developer desempeñando siempre profesionalismo, trabajo en equipo, organización y constantemente aprendiendo nuevas cosas. 
                             </p>
                             <p>Mis hobbies son ver series y películas, escuchar podcast, además me encanta salir ya sea para tomar un cafecito o para conocer y fotografiar pueblos y lugares mágicos.</p>
-                            <a href="https://cv-sandra.netlify.app" class="btn btn-1" target="_blank">
+                            <a href="https://cv-sandra-mtz.netlify.app/cv/cv_SandraMtz2021.pdf" class="btn btn-1" download target="_blank">
                                 <svg>
                                     <rect x="0" y="0" fill="none" width="100%" height="100%"/>
                                 </svg>
-                                Ver CV
+                                Descargar CV
                             </a>
                       </div>
                   </div>
