@@ -3,7 +3,7 @@
       <div class="container" id="contact">
           <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12">
-                  <h2>Contacto</h2>
+                  <h2>Contáctame</h2>
               </div>
           </div>
           <div class="row">

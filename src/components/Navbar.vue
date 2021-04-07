@@ -10,7 +10,7 @@
                 <li class="nav-item"><router-link class="link-menu" :to="{hash: '#home'}" @click.native="anchorHashCheck">Inicio</router-link></li>
                 <li class="nav-item"><router-link class="link-menu" :to="{hash: '#about'}" @click.native="anchorHashCheck">Acerca de mí</router-link></li>
                 <li class="nav-item"><router-link class="link-menu" :to="{hash: '#projects'}" @click.native="anchorHashCheck">Proyectos</router-link></li>
-                <li class="nav-item"><router-link class="link-menu" :to="{hash: '#contact'}" @click.native="anchorHashCheck">Contacto</router-link></li>
+                <li class="nav-item"><router-link class="link-menu" :to="{hash: '#contact'}" @click.native="anchorHashCheck">Contáctame</router-link></li>
             </ul>
         </b-collapse>
     </b-navbar>
