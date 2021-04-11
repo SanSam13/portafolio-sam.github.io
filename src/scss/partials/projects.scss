@@ -13,6 +13,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         .box-project{
+            //display: none;
             margin-bottom: 30px;
             transition: cubic-bezier(0.075, 0.82, 0.165, 1) all 1s;
             a{
