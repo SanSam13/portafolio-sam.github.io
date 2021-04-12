@@ -43,8 +43,6 @@
             }
             @include mq(mobile, max){
                 background-position: 80% 0;
-                height: 480px;
-                background-size: auto;
             }
         }
         .info{
@@ -74,6 +72,10 @@
                         font-size: 1.8em;
                         width: 100%;
                         text-align: center;
+                        padding: 10px;
+                        &::after{
+                            display: none;
+                        }
                     }
                 }
                 p{

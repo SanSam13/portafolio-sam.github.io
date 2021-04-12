@@ -22,9 +22,8 @@
                 left: 13%;
             }
             @include mq(mobile, max){
-                max-width: 301px;
-                min-height: 301px;
-                margin: 0 auto 0 20px;
+                max-width: 280px;
+                min-height: 280px;
             }
         }
         .icon{
@@ -43,6 +42,10 @@
             @include mq(mobile, max){
                 right: 67%;
                 font-size: 2.5em;
+                top: 4%;
+            }
+            @include mq(small-mobile, max){
+                right: 61%;
             }
         }
         .description{
