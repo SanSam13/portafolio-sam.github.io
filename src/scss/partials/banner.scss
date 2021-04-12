@@ -60,6 +60,8 @@
                     text-transform: uppercase;
                     font-family: $title-font;
                     letter-spacing: 5px;
+                    animation: move 1s;
+                    -webkit-animation: move 1s;
                     &::after{
                         left: -3%;
                     }
@@ -76,6 +78,8 @@
                     margin: 0;
                     font-family: $secondary-font;
                     text-align: center;
+                    animation: move 2s;
+                    -webkit-animation: move 2s;
                     strong{
                         display: block;
                     }

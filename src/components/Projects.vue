@@ -64,7 +64,8 @@ export default {
         async getProjects(){
             try {
                 this.showLoading({title: 'Cargando Proyectos'})
-                const res = await this.axios.get('http://localhost:8080/projects.json')
+                //const res = await this.axios.get('http://localhost:8080/projects.json')
+                const res = await this.axios.get('https://sites-bec69-default-rtdb.firebaseio.com/projects.json')
                 if (res.status === 200) {
                     this.allProjects = res.data
                     //console.log(this.allProjects)

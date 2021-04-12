@@ -1,12 +1,10 @@
 footer{
     background-color: $back-footer;
-    // background-image: url('../assets/back-footer.jpg');
-    // background-position: 50% 100%;
     color: $white;
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0 20px 0;
     h2{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         &::after{
             left: -3%;
         }
@@ -21,16 +19,15 @@ footer{
         }
     }
     p{
-        @include mq(tablet, max){
-            font-size: 15px;
-        }
+        font-size: 14px;
+        margin: 0;
     }
     .social-media{
         display: flex;
         align-items: center;
         list-style: none;
         padding: 0;
-        margin: 30px 0 10px 0;
+        margin: 30px 0 50px;
         justify-content: center;
         li{
             margin: 0 10px;
