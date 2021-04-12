@@ -19,9 +19,6 @@ Vue.use(IconsPlugin)
 Vue.use(VueRouter)
 Vue.use(VueAxios, axios)
 
-// Agregamos la URL base de nuestra API
-//axios.defaults.baseURL = 'https://sites-bec69-default-rtdb.firebaseio.com/projects.json';
-
 Vue.config.productionTip = false
 
 
