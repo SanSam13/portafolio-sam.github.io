@@ -29,7 +29,7 @@
         }
         .image{
             height: 100vh;
-            background-color: grey;
+            background-color: $black;
             background-image: url('../assets/bannerSam3.png');
             background-repeat: no-repeat;
             background-size: cover;
@@ -38,8 +38,13 @@
             @include mq(desktop, max){
                 background-position: 70% 0;
             }
+            @include mq(tablet, max){
+                height: 95vh;
+            }
             @include mq(mobile, max){
                 background-position: 80% 0;
+                height: 480px;
+                background-size: auto;
             }
         }
         .info{
@@ -66,7 +71,7 @@
                         left: -3%;
                     }
                     @include mq(mobile, max){
-                        font-size: 2em;
+                        font-size: 1.8em;
                         width: 100%;
                         text-align: center;
                     }
@@ -78,8 +83,8 @@
                     margin: 0;
                     font-family: $secondary-font;
                     text-align: center;
-                    animation: move 2s;
-                    -webkit-animation: move 2s;
+                    animation: move 3s;
+                    -webkit-animation: move 3s;
                     strong{
                         display: block;
                     }

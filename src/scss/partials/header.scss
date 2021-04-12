@@ -1,9 +1,9 @@
 header{
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    background-color: transparent;
     position: fixed;
     width: 100%;
     z-index: 11;
+    transition: 1s all;
     .menu{
         .navbar{
             padding: 0;
@@ -19,6 +19,9 @@ header{
                 font-family: 'Satisfy';
                 font-size: 3em;
                 align-items: center;
+                @include mq(mobile, max){
+                    font-size: 2.5em;
+                }
             }
         }
         .link-menu {
@@ -58,10 +61,14 @@ header{
             }
         }
     }
+    .navbar-nav{
+        @include mq(tablet, max){
+            text-align: right;
+            margin-bottom: 20px;
+        }
+    }
     &.active{
         background-color: rgba(0, 0, 0, 1);
-    }
-    @include mq(tablet, max){
-        background-color: rgba(0, 0, 0, 1);
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
     }
 }

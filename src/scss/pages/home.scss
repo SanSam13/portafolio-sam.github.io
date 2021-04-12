@@ -11,6 +11,7 @@
             height: auto;
             min-height: 401px;
             border: 3px solid $purple-dark;
+            margin: 0 auto;
             img{
                 display: block;
                 width: 100%;
@@ -23,24 +24,24 @@
             @include mq(mobile, max){
                 max-width: 301px;
                 min-height: 301px;
-                margin: 0 auto;
+                margin: 0 auto 0 20px;
             }
         }
         .icon{
             position: absolute;
-            right: 75%;
+            right: 63%;
             top: 5%;
             font-size: 3em;
             color: purple;
             z-index: 2;
             @include mq(desktop, max){
-                right: 70%;
+                right: 65%;
             }
             @include mq(tablet, max){
-                right: 63%;
+                right: 60%;
             }
             @include mq(mobile, max){
-                right: 63%;
+                right: 67%;
                 font-size: 2.5em;
             }
         }
@@ -60,15 +61,31 @@
             }
             .icon{
                 position: absolute;
-                top: -12%;
+                top: 0;
                 right: 10%;
                 font-size: 20em;
                 color: rgba(gray, 0.2);
+                @include mq(desktop, max){
+                    top: 5%;
+                }
+                @include mq(mobile, max){
+                    right: 0;
+                }
             }
             @include mq(mobile, max){
                 padding: 30px 20px;
                 margin-top: 50px;
             }
+        }
+        .dowloand{
+            @include mq(tablet, max){
+                margin: 0 auto;
+                text-align: center;
+                display: block;
+            }
+        }
+        @include mq(tablet, max){
+            padding: 100px 0;
         }
     }
 }

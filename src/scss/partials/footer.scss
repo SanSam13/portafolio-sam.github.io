@@ -39,6 +39,9 @@ footer{
                     text-decoration: none;
                     color: $purple-light;
                 }
+                @include mq(mobile, max){
+                    font-size: 2em;
+                }
             }
         }
     }

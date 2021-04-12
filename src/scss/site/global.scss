@@ -49,12 +49,14 @@ body {
       font-family: $secondary-font;
       font-weight: 400;
     }
+    a{
+      color: $purple;
+    }
 }
 
 .btn {
   color: $purple;
   cursor: pointer;
-  // display: block;
   font-size:16px;
   font-weight: 400;
   line-height: 45px;
@@ -64,11 +66,17 @@ body {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  width: 100%; 
+  width: 100%;
+  @include border-radius(0);
   &:hover, &:visited, &:focus { 
     text-decoration: none;
     outline: 0 !important;
   }
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: none;
 }
 
 .btn-1 {
