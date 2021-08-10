@@ -13,7 +13,7 @@
                     <div class="container-projects">
                         <div class="box-project bounce-enter-active" v-for="(project, index) in projectsShow" :key="index">
                             <a :href="project.link" target="_blank" :title="project.title">
-                                <img :src="project.image" :alt="project.title">
+                                <img width="350" height="350" :src="project.image" :alt="project.title">
                                 <div class="info">
                                     <div class="container-info">
                                         <small>({{project.company}})</small>

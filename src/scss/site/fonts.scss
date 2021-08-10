@@ -10,6 +10,7 @@
          url('../assets/fonts/MontserratThin.woff') format('woff'),
          url('../assets/fonts/MontserratThin.ttf') format('truetype'),
          url('../assets/fonts/MontserratThin.svg#MontserratThin') format('svg');
+    font-display: fallback;
 }
 
 @font-face {
@@ -20,6 +21,7 @@
          url('../assets/fonts/MontserratLight.woff') format('woff'),
          url('../assets/fonts/MontserratLight.ttf') format('truetype'),
          url('../assets/fonts/MontserratLight.svg#MontserratLight') format('svg');
+    font-display: fallback;
 }
 
 @font-face {
@@ -30,6 +32,7 @@
          url('../assets/fonts/MontserratRegular.woff') format('woff'),
          url('../assets/fonts/MontserratRegular.ttf') format('truetype'),
          url('../assets/fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+    font-display: fallback;
 }
 
 @font-face {
@@ -40,6 +43,7 @@
          url('../assets/fonts/MontserratMedium.woff') format('woff'),
          url('../assets/fonts/MontserratMedium.ttf') format('truetype'),
          url('../assets/fonts/MontserratMedium.svg#MontserratMedium') format('svg');
+    font-display: fallback;
 }
 @font-face {
     font-family: 'MontserratSemiBold';
@@ -49,6 +53,7 @@
          url('../assets/fonts/MontserratSemiBold.woff') format('woff'),
          url('../assets/fonts/MontserratSemiBold.ttf') format('truetype'),
          url('../assets/fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
+    font-display: fallback;
 }
 @font-face {
     font-family: 'MontserratBold';
@@ -58,6 +63,7 @@
          url('../assets/fonts/MontserratBold.woff') format('woff'),
          url('../assets/fonts/MontserratBold.ttf') format('truetype'),
          url('../assets/fonts/MontserratBold.svg#MontserratBold') format('svg');
+    font-display: fallback;
 }
 
 
